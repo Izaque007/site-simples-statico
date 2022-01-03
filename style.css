@@ -1,0 +1,136 @@
+
+html
+{
+	font-size:20px;
+  
+}
+ 
+.fontnav
+{
+       font-size: 25px;
+       font-family:"Geostar",cursive ;
+}
+
+body 
+{
+       
+               padding: 0;
+               margin: 0 ;
+               text-align: center; 
+}
+
+a
+{
+
+           text-decoration:none;
+
+}
+
+.fonte  
+{
+	        font-family:"comic sans ms";
+	        font-style:italic;
+}
+
+#fundo
+{
+	        background-color:orange;
+               width:10cm;
+               height:6mm;
+               font-style:oblique;
+}
+
+/*caracteristicas da lista*/
+
+.lista1
+{	
+                
+               background-color:yellow;
+	             border:2px solid;
+               width:18cm;
+                border-radius:5px;
+               margin:5px;
+               list-style: none;
+}
+
+.conteiner
+{               display: flex;
+               flex-direction:row;
+               justify-content:space-evenly;
+               margin: 0px;
+               background-color:gray;
+               align-items:center;
+               height:25mm;
+               
+               
+               
+}        
+                     /* parte dedicada a pagina café  */
+
+.img
+{  
+                         
+                         float:left;
+                        margin-right:40px;
+ }
+
+ .conteiner2
+ {
+                         margin-left:40px;
+                         overflow:auto;
+                         background-color:gray;
+ }
+
+.p1
+{
+                       font-style:italic;
+                       font-size: larger;
+  }
+
+ #p1{
+
+               background-color:yellow;
+ }
+
+ #p2{
+
+               background-color:orange;
+ }
+             /* otro progeto*/
+ .grid
+ {
+
+               background-color:goldenrod;
+               display: grid;
+               
+               grid-template: 100px 100px/auto auto auto;
+               padding: 50px;
+               background-color: gray;
+               margin-top:20px;
+               grid-gap:10px ;
+               justify-items: center;
+ }
+
+ .g1
+ {
+               background-color:rebeccapurple;
+
+ }
+
+
+ .g2
+ {
+               background-color: orange;
+ 
+ }
+
+
+ .g3
+ {
+               background-color:greenyellow;
+
+ }
+
+ 
+      
+   
